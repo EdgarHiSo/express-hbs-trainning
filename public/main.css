@@ -1,0 +1,17 @@
+#game-thrones {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+width: 100%;
+flex-wrap: wrap;
+box-sizing: border-box;
+padding: 0 10%;
+
+}
+#game-thones > div {
+width: 33%;
+} 
+h1 { 
+    padding-bottom: 2% 0;
+    text-align: center;    
+}

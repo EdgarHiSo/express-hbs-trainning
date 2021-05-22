@@ -1,0 +1,14 @@
+<div id="game-thrones">
+
+{{#each data as |episodeData| }}
+<div class="card" style="width: 18rem;">
+  <img src="{{episodeData.image.medium}}" class="card-img-top" alt={{episodeData.name}}>
+  <div class="card-body">
+    <h5 class="card-title">{{episodeData.name}}</h5>
+    <p class="card-text">{{episodeData.summary}}</p>
+    <a href="#" class="btn btn-danger">Go somewhere</a>
+  </div>
+</div> {{/each}}
+
+</div>
+
